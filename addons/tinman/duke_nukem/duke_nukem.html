@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Below goes the name of the addon -->
+  <title>Duke Nukem</title>
+
+  <link rel="stylesheet" href="../../../main/dl_assets/dl_style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="leftside">
+
+  <!-- the 2 lines below import the nav into each page -->
+  <div include-HTML="../../../main/dl_assets/website_nav.html"></div>
+  <script src="../../../main/include-HTML.js"></script>
+
+</div>
+
+<div class="content">
+<div class="allelements">
+  <div class="packimage">
+
+    <!-- Below goes name of the addon -->
+    <div class="packname">Duke Nukem</div>
+
+    <div class="imagezone"><img src="" id="imagedisplay" draggable="false"></div>
+      <div class="packinfo">
+
+        <!-- Below goes the name of the creator of the addon. Made by: "USER" -->
+        <div id="authors">Made by: Mangrove</div>
+
+      </div>
+     <div class="description">
+       <!-- Below goes description; keep in mind this respect any spaces you leave, so writing on a new line means you are writing on another line as well-->
+    <pre id="desc">Duke Nukem as Tinman.
+</pre>
+
+  </div>
+  </div>
+
+  <div class="downloadsection">
+
+    <div class="dlbutton">
+
+      <!-- Replace FILENAME with the name of the addon, which should be located in the folder 'versions' -->
+      <a href="./versions/Duke_Nukem_1.8.zip" draggable="false" download>
+
+        <img src="../../../main/dl_assets/downloadicon.png" class="dlicon" draggable="false">
+        <!-- Change the version below if needed -->
+      <div class="dltext">For 1.8.9</div>
+      </a>
+  </div>
+
+    <!-- Below goes link to original forums thread -->
+    <div class="oglink"><a href="https://hypixel.net/threads/add-on-pack-duke-nukem.1146745/" draggable="false"><div class="ogtext">Original Link</div></a></div>
+
+  </div>
+
+  <div class="extraimage">
+<!-- IMAGES BELOW THIS LINE -->
+    <div class="extraimagecontainer">
+      <!-- Change IMAGENAME to the name of each image, which should be located in the folder 'images' -->
+    <img src="./images/duke_nukem.png" onclick="selectextraimage(this.src)" class="imgsel" draggable="false">
+    </div>
+
+<!-- IMAGES ABOVE THIS LINE -->
+  </div>
+</div>
+  </div>
+<!-- partial -->
+  <script  src="../../../main/dl_assets/dl_image_pick.js"></script>
+
+</body>
+</html>
